@@ -18,8 +18,6 @@ while True:
     img=cv2.resize(img,(600,480))
     
 #    bbox,label,conf= cv.detect_common_objects(img)
-    
-#    cv2.line(img,(213,cy1),(391,cy1),(0,0,255),1)
 #    cvzone.putTextRect(img,f'Counter:-{l}',(50,60),2,1)
     cv2.imshow("IMG",img)
 
